@@ -9,7 +9,7 @@ import {
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className="App">
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/page1">Page 1</Link></li>
@@ -20,7 +20,7 @@ function App() {
             <div>Page 1</div>
           </Route>
           <Route path="/page2">
-            <div>Page 1</div>
+            <div>Page 2</div>
           </Route>
           <Route path="/">
             <div>Home</div>
